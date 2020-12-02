@@ -55,7 +55,7 @@ $ fisher install jhillyerd/plugin-git
 | ------------ | ---------------------------------------------------- |
 | gco          | `git checkout`                                       |
 | gcod         | `git checkout develop`                               |
-| gcom         | `git checkout master`                                |
+| gcom         | `git checkout main`                                |
 | gcb          | `git checkout -b`                                    |
 
 ### Commit
@@ -121,7 +121,7 @@ $ fisher install jhillyerd/plugin-git
 | glo          | `git log --oneline --decorate --color`               |
 | gloo         | `git log --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%Cgreen%d %Creset%s' --date=short` |
 | glog         | `git log --oneline --decorate --color --graph`       |
-| glom         | `git log --oneline --decorate --color master..`      |
+| glom         | `git log --oneline --decorate --color main..`      |
 | glod         | `git log --oneline --decorate --color develop..`     |
 | glp          | `git log` at requested pretty level                  |
 | gwch         | `git whatchanged -p --abbrev-commit --pretty=medium` |
@@ -154,9 +154,9 @@ $ fisher install jhillyerd/plugin-git
 | grba         | `git rebase --abort`                                 |
 | grbc         | `git rebase --continue`                              |
 | grbi         | `git rebase --interactive`                           |
-| grbm         | `git rebase master`                                  |
-| grbmi        | `git rebase master --interactive`                    |
-| grbmia       | `git rebase master --interactive --autosquash`       |
+| grbm         | `git rebase main`                                  |
+| grbmi        | `git rebase main --interactive`                    |
+| grbmia       | `git rebase main --interactive --autosquash`       |
 | grbd         | `git rebase develop`                                 |
 | grbdd        | `git rebase develop --interactive`                   |
 | grbdia       | `git rebase develop --interactive --autosquash`      |
@@ -227,7 +227,7 @@ $ fisher install jhillyerd/plugin-git
 | gignored     | list temporarily ignored files                              |
 | gf           | `git fetch`                                                 |
 | gfa          | `git fetch --all --prune`                                   |
-| gfm          | `git fetch origin master --prune; and git merge FETCH_HEAD` |
+| gfm          | `git fetch origin main --prune; and git merge FETCH_HEAD` |
 | gfo          | `git fetch origin`                                          |
 | gm           | `git merge`                                                 |
 | gmt          | `git mergetool --no-prompt`                                 |
